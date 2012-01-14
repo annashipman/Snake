@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/annashipman_snake/!svn/ver/21/src/anna/shipman/main/snake
+END
+Direction.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/annashipman_snake/!svn/ver/20/src/anna/shipman/main/snake/Direction.java
+END
+Snake.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/annashipman_snake/!svn/ver/22/src/anna/shipman/main/snake/Snake.java
+END
+Board.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/annashipman_snake/!svn/ver/12/src/anna/shipman/main/snake/Board.java
+END
+Food.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/annashipman_snake/!svn/ver/20/src/anna/shipman/main/snake/Food.java
+END
+SnakeGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/annashipman_snake/!svn/ver/20/src/anna/shipman/main/snake/SnakeGame.java
+END
+GameParameters.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/annashipman_snake/!svn/ver/12/src/anna/shipman/main/snake/GameParameters.java
+END

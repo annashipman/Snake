@@ -1,0 +1,18 @@
+<project name="Snake" default="compile" basedir=".">
+    <description>
+        Build file for Anna Shipman's Snake Game
+    </description>
+
+  <target name="compile" description="compile the source" >
+    <javac srcdir="src" destdir="."/>
+  </target>
+
+  <target name="run" depends="compile" description="play the game" >
+    <java classname="anna.shipman.main.snake.SnakeGame" fork="yes"/>
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <delete dir="anna"/>
+  </target>
+</project>
