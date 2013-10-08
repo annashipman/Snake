@@ -1,8 +1,0 @@
-package anna.shipman.main.snake;
-
-public enum Direction {
-	LEFT,
-	RIGHT,
-	UP,
-	DOWN
-}
