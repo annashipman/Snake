@@ -4,3 +4,19 @@ ant compile --> compile the classes
 ant run --> compile (if not already compiled) the classes and play the game
 ant clean --> delete the classes
 
+Suggetions from Joe Halliwell:
+
+Might be an idea to:
+- pause on start (for click/spacebar)
+- print some instructions
+- restart on spacebar or click?
+
+If you're submitting this for review, might be worth
+spending 30 mins:
+
+- Adding javadoc comments, at least to some key methods -- I know this
+is something I look for
+- Adding javadoc to each class describing its role/responsibilities
+- Adding README.txt pointing the reviewer at a good place to start
+and/or any notable features
+
