@@ -99,10 +99,8 @@ public class SnakeGame {
 		public void keyPressed(KeyEvent keyEvent) {
 			final int keyCode = keyEvent.getKeyCode();
 			final String keyString = KeyEvent.getKeyText(keyCode);
-			if (keyEvent.isActionKey() && isDirection(keyString)) {
-				changeDirectionOfSnake(keyString);
-			}
-		}
+			changeDirectionOfSnake(keyString);
+}
 
 		private void changeDirectionOfSnake(String keyString) {
 			snake.setDirectionOfSnake(keyString);
