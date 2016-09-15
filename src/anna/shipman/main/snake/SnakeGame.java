@@ -99,11 +99,32 @@ public class SnakeGame {
 		public void keyPressed(KeyEvent keyEvent) {
 			final int keyCode = keyEvent.getKeyCode();
 			final String keyString = KeyEvent.getKeyText(keyCode);
-			changeDirectionOfSnake(keyString);
+			changeDirectionOfSnake(keyCode);
 }
 
-		private void changeDirectionOfSnake(String keyString) {
-			snake.setDirectionOfSnake(keyString);
+		private void changeDirectionOfSnake(int keyCode) {
+      String keyString;
+
+      switch (keyCode) {
+        case KeyEvent.VK_UP:
+            keyString = "Up";
+            break;
+        case KeyEvent.VK_DOWN:
+            keyString = "Down";
+            break;
+        case KeyEvent.VK_RIGHT:
+            keyString = "Right";
+            break;
+        case KeyEvent.VK_LEFT:
+            keyString = "Left";
+            break;
+        default:
+            keyString = "Ignore";
+        }
+
+      if (keyString != "Ignore") {
+			  snake.setDirectionOfSnake(keyString);
+      }
 		}
 
 		public void keyTyped(KeyEvent e) {
