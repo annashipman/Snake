@@ -98,7 +98,6 @@ public class SnakeGame {
 
 		public void keyPressed(KeyEvent keyEvent) {
 			final int keyCode = keyEvent.getKeyCode();
-			final String keyString = KeyEvent.getKeyText(keyCode);
 			changeDirectionOfSnake(keyCode);
 }
 
@@ -134,16 +133,5 @@ public class SnakeGame {
 		}
 	}
 	
-	private boolean isDirection(String keyString) {
-		// TODO better way to do this is to use enum
-		if (keyString.equalsIgnoreCase("Up")
-				|| keyString.equalsIgnoreCase("Down")
-				|| keyString.equalsIgnoreCase("Left")
-				|| keyString.equalsIgnoreCase("Right")) {
-			return true;
-		}
-		return false;
-	}
-
 
 }
