@@ -97,14 +97,13 @@ public class SnakeGame {
   private class DirectionInputFromKeyboard implements KeyListener {
 
     public void keyPressed(KeyEvent keyEvent) {
-      final int keyCode = keyEvent.getKeyCode();
-      changeDirectionOfSnake(keyCode);
-}
+      changeDirectionOfSnake(keyEvent);
+    }
 
-    private void changeDirectionOfSnake(int keyCode) {
+    private void changeDirectionOfSnake(KeyEvent keyEvent) {
       String keyString;
 
-      switch (keyCode) {
+      switch (keyEvent.getKeyCode()) {
         case KeyEvent.VK_UP:
             keyString = "Up";
             break;
