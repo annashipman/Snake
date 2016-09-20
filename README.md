@@ -9,6 +9,7 @@ Comments and suggestions are welcome. Pull requests not welcome; this is a fun p
 ## Requirements
 
 Java
+
 [Ant](http://ant.apache.org) (if you want to use the build tools)
 
 ## To play the game
@@ -20,13 +21,14 @@ Scores printed to the console.
 ## Other Ant commands
 
 `ant compile` compile the classes
+
 `ant clean` delete the classes
 
 ## Next steps (for me)
 
 Look through for TODOs.
 
-From @joehalliwell:
+From [Joe Halliwell](https://github.com/joehalliwell/):
 
 Might be an idea to:
 - pause on start (for click/spacebar)
