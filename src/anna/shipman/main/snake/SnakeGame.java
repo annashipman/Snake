@@ -46,12 +46,12 @@ public class SnakeGame {
   public void gameOver() {
     //TODO here I want to print Game Over and score to board
     //as well as some options - new game, etc.
+    //for now they are printed to console and board is closed
     snakeTimer.cancel();
     board.repaint();
     System.out.println("Game Over!");
     System.out.println("Score: " + score);
-    //game has stopped but i can still change direction of snake. 
-    //Why? Should I be able to?
+    board.dispose();
   }
   
   public boolean nextHeadIsNotLegal(Point nextHead) {
