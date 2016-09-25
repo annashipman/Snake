@@ -66,7 +66,7 @@ public class Snake extends JPanel {
   }
   
   public Point getNextHeadOfSnake() {
-    if (!directionQueue.isEmpty()){
+    if (hasDirectionWaiting()){
       currentDirection = directionQueue.poll();
     }
     final Point nextHeadOfSnake = new Point(snakeList.getFirst());
